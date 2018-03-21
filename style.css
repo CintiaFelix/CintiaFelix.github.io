@@ -4,10 +4,19 @@
 body{
 	background: url("https://www.papeleparede.com.br/6236-thickbox_default/papel-de-parede-floral-com-fundo-branco-e-flores-em-tons-de-rosa-rose-42.jpg") repeat right top fixed;
 }
+@media (max-width: 360px) {
+	body {
+		background:#ffe6e6;
+	}
+}
 .ft-perfil{
 	width:300px;
 	height:auto;
 	border-radius: 50%;
+}
+@media (max-width: 360px) {
+	ft-perfil {
+		width: 250px;	}
 }
 /*Corpo*/
 .hum{
@@ -25,11 +34,31 @@ body{
 	transition: all 0.4s ease-out;
 	border-radius: 560%;
 }
+@media (max-width:360px) {
+	.rede{
+		width: 80px;
+		height: 80px;
+		float: left;
+		margin-left: 20px;
+		transition: all 0.4s ease-out;
+		border-radius: 100%;
+	}
+}
+
 .icone{
 	height: 90px;
 	width:80px;
 	padding:35px;
 	margin: 0px auto;
+}
+@media (max-width: 360px) {
+	.icone{
+		width:30px;	
+		height:40px;
+		margin:0px auto;
+		display: flex;
+		align-items: center;
+	}
 }
 
 .rede:hover{
